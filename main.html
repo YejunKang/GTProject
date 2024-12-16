@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GT Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Rhetorical Analysis Game</h1>
+        <h3>By Yejun Kang</h3>
+        <div class="post-box" id="post-box">
+            <!-- Social Media Post appears here -->
+        </div>
+        <p id="question">Is this an example of logical political rhetoric?</p>
+        <div class="button-container">
+            <button class="btn-correct" onclick="checkAnswer(true)">Yes</button>
+            <button class="btn-incorrect" onclick="checkAnswer(false)">No</button>
+        </div>
+        <p id="score">Points: 0</p>
+        <hr>
+        <div id="instructions">
+            <h3>Instructions</h4>
+
+                <ul>
+                    <li>Your table group will be your group for the game.</li>
+                    <li>The person with the highest score at the end of the game wins!</li>
+                    
+                  </ul> 
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div id="rhetoric-claim">
+            <strong>Claim:</strong> Political rhetoric has changed from something that used logically argued through the foundational documents of the United States, to persuading through appealing to younger generations through dubiously authentic content on mass communication platforms, representing a large issue with political discourse and the rhetoric behind it today.
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
